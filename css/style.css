@@ -1,0 +1,72 @@
+header{
+    background-color: #000000;
+    color: #e656ce;
+    padding: 20px; /*Espaçamento interno do elemento*/
+    align-items: center;/*Alinhamento vertical*/
+    text-align: center;/*Alinhamento horizontal*/
+}
+header img {
+    height: 50px; /* Altura do logo */
+}
+header h1 {
+    margin: 0;
+    margin-left: 10px;
+} 
+header ul {
+    list-style-type:none;
+} 
+header ul li{
+display: inline;/*Itens do menu na horizontal*/
+margin-right: 20px;
+}
+header li a{
+    color: #f7befc;
+text-decoration: none;
+}
+section {
+padding: 40px;
+text-align: center;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+img {
+    max-width:100%;
+    height: auto;
+}
+label {
+
+    display: block;/*Alterna a disposição do elemento para o bloco*/
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #800091;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #d36ed6;
+}
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+} 
